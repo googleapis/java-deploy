@@ -11,11 +11,11 @@ squashMergeAllowed: true
 # Defaults to `false`
 mergeCommitAllowed: false
 
-# Rules for master branch protection
+# Rules for  branch protection
 branchProtectionRules:
 # Identifies the protection rule pattern. Name of the branch to be protected.
-# Defaults to `master`
-- pattern: master
+# Defaults to ``
+- pattern:
   # Can admins overwrite branch protection.
   # Defaults to `true`
   isAdminEnforced: true

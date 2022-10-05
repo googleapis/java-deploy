@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/googleapis/java-deploy/compare/v1.1.7...v1.1.8) (2022-10-05)
+
+
+### Bug Fixes
+
+* update protobuf to v3.21.7 ([2913d41](https://github.com/googleapis/java-deploy/commit/2913d416913d81cf7dc05f780a914072ecc5009e))
+
 ## [1.1.7](https://github.com/googleapis/java-deploy/compare/v1.1.6...v1.1.7) (2022-10-03)
 
 

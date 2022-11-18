@@ -9,6 +9,13 @@ Java idiomatic client for [Google Cloud Deploy][product-docs].
 - [Client Library Documentation][javadocs]
 
 
+:bus: In October 2022, this library has moved to
+[google-cloud-java/java-deploy](
+https://github.com/googleapis/google-cloud-java/tree/main/java-deploy).
+This repository will be archived in the future.
+Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
+The Maven artifact coordinates (`com.google.cloud:google-cloud-deploy`) remain the same.
+
 ## Quickstart
 
 
@@ -19,20 +26,20 @@ If you are using Maven, add this to your pom.xml file:
 <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-deploy</artifactId>
-  <version>1.1.8</version>
+  <version>1.3.0</version>
 </dependency>
 ```
 
 If you are using Gradle without BOM, add this to your dependencies:
 
 ```Groovy
-implementation 'com.google.cloud:google-cloud-deploy:1.1.8'
+implementation 'com.google.cloud:google-cloud-deploy:1.3.0'
 ```
 
 If you are using SBT, add this to your dependencies:
 
 ```Scala
-libraryDependencies += "com.google.cloud" % "google-cloud-deploy" % "1.1.8"
+libraryDependencies += "com.google.cloud" % "google-cloud-deploy" % "1.3.0"
 ```
 
 ## Authentication
